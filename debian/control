@@ -15,7 +15,7 @@ Standards-Version: 3.9.4
 Package: apparmor-profile-timesync
 Architecture: all
 Depends: ${misc:Depends}, apparmor
-Description: AppArmor profile for timesync.
+Description: AppArmor profile for timesync
  An AppArmor profile to confine timesync. This profile is
  developed by the Whonix team. timesync is developed by
  Patrick Schleizer <adrelanos@riseup.net>.
