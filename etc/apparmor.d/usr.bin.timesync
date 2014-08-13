@@ -171,6 +171,8 @@
 	/usr/lib/curl-scripts/* rix,
 	/usr/lib/sclockadj rix,
 
+	/usr/lib/ruby/ mr,
+
 	/usr/local/lib/python2.7/dist-packages/ r,
 
 	/usr/share/ca-certificates/** r,
