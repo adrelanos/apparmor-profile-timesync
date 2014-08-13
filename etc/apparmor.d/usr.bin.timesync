@@ -159,6 +159,7 @@
 	/usr/bin/sort rix,
 	/usr/bin/shuf rix,
 	/usr/bin/mkfifo rix,
+	/usr/bin/ruby* rix,
 
 	/usr/sbin/service rix,
 
