@@ -168,6 +168,7 @@
 	/usr/lib/msgcollector/* rix,
 	/usr/lib/anon-shared-helper-scripts/* rix,
 	/usr/lib/curl-scripts/* rix,
+	/usr/lib/sclockadj rix,
 
 	/usr/local/lib/python2.7/dist-packages/ r,
 
