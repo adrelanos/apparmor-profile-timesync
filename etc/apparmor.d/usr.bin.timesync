@@ -170,6 +170,7 @@
 	/usr/lib/anon-shared-helper-scripts/* rix,
 	/usr/lib/curl-scripts/* rix,
 	/usr/lib/sclockadj rix,
+	/usr/lib/sclockadj_kill_helper rix,
 
 	/usr/lib/ruby/** mr,
 
