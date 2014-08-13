@@ -158,6 +158,7 @@
 	/usr/bin/printf rix,
 	/usr/bin/sort rix,
 	/usr/bin/shuf rix,
+	/usr/bin/mkfifo rix,
 
 	/usr/sbin/service rix,
 
