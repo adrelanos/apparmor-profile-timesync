@@ -92,8 +92,9 @@
 
 	@{HOME}/ r,
 	@{HOME}/.sdwdate/ r,
-	@{HOME}/.sdwdate/* rwcux,
+	@{HOME}/.sdwdate/* rwcx,
 	@{HOME}/sdwdatetest rwk,
+	@{HOME}/.msgcollector/* rwk,
 
 	/lib/i386-linux-gnu/** mr,
 	/lib/security/* mr,
@@ -105,13 +106,14 @@
 	@{PROC}/[0-9]*/fd/ r,
 	@{PROC}/sys/kernel/pid_max r,
 	@{PROC}/uptime r,
+	@{PROC}/[0-9]*/task/ r,
 
 	/run/timesync/* mrwcx,
 	/run/timesync/timesync_pid r,
 	/run/utmp rk,
 	/run/msgcollector r,
-	/run/msgcollector/ r,
-	/run/msgcollector/* rw,
+	/run/msgcollector/*/ r,
+	/run/msgcollector/*/* rwk,
 	/run/sdwdate r,
 	/run/sdwdate/ rw,
 	/run/sdwdate/* rw,
@@ -151,12 +153,20 @@
 	/usr/bin/gawk rix,
 	/usr/bin/awk rix,
 	/usr/bin/whoami rix,
+	/usr/bin/pstree rix,
+	/usr/bin/bc rix,
+	/usr/bin/printf rix,
+	/usr/bin/sort rix,
+	/usr/bin/shuf rix,
 
 	/usr/sbin/service rix,
 
 	/usr/lib/sudo/sudoers.so mr,
 	/usr/lib/timesync/** rix,
 	/usr/lib/python2.7/** mr,
+	/usr/lib/msgcollector/* rix,
+	/usr/lib/anon-shared-helper-scripts/* rix,
+	/usr/lib/curl-scripts/* rix,
 
 	/usr/local/lib/python2.7/dist-packages/ r,
 
