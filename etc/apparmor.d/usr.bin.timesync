@@ -101,6 +101,7 @@
 
 	@{PROC} r,
 	@{PROC}/cmdline r,
+	@{PROC}/*/cmdline r,
 	@{PROC}/[0-9]*/stat r,
 	@{PROC}/[0-9]*/status r,
 	@{PROC}/[0-9]*/fd/ r,
