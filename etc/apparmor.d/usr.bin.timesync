@@ -108,6 +108,7 @@
 	@{PROC}/sys/kernel/pid_max r,
 	@{PROC}/uptime r,
 	@{PROC}/[0-9]*/task/ r,
+	@{PROC}/tty/drivers r,
 
 	/run/timesync/* mrwcx,
 	/run/timesync/timesync_pid r,
