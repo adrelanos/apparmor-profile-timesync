@@ -109,6 +109,7 @@
 	@{PROC}/uptime r,
 	@{PROC}/[0-9]*/task/ r,
 	@{PROC}/tty/drivers r,
+	@{PROC}/sys/kernel/random/uuid r,
 
 	/run/timesync/* mrwcx,
 	/run/timesync/timesync_pid r,
