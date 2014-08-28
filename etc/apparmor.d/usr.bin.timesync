@@ -22,6 +22,7 @@
 	/usr/bin/timesync rix,
 
 	/bin/bash ix,
+	/bin/dash ix,
 	/bin/rm rix,
 	/bin/cat rix,
 	/bin/mktemp rix,
@@ -163,6 +164,14 @@
 	/usr/bin/shuf rix,
 	/usr/bin/mkfifo rix,
 	/usr/bin/ruby* rix,
+	/usr/bin/gcc-* rix,
+	/usr/bin/as rix,
+	/usr/bin/ld.bfd rix,
+
+	/usr/lib/gcc/** rix,
+
+	/usr/include r,
+	/usr/include/** r,
 
 	/usr/sbin/service rix,
 
