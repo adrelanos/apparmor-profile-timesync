@@ -60,6 +60,10 @@
 	/etc/resolv.conf.anondist r,
 	deny /etc/fstab r,
 
+	## required for sdwdate-plugin-anon-shared-con-check
+	/usr/share/tor/tor-service-defaults-torrc,
+	/etc/tor/torrc,
+
 	/etc/ld.so.cache r,
 	/etc/nsswitch.conf r,
 	/etc/default/nss r,
