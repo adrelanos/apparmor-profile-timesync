@@ -205,6 +205,9 @@
 	/var/log/sdwdate.log rw,
 	/var/log/timesanitycheck.log rw,
 
+	## required for sdwdate-plugin-anon-shared-con-check
+	/run/tor/control.authcookie
+
 	/root/.ruby_inline/ rw,
 	/root/.ruby_inline/** mrw,
 }
