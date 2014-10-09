@@ -172,6 +172,8 @@
 	/usr/bin/as rix,
 	/usr/bin/ld.bfd rix,
 
+	/usr/bin/tlsdate Px,
+
 	/usr/lib/gcc/** rix,
 
 	/usr/include r,
@@ -206,7 +208,7 @@
 	/var/log/timesanitycheck.log rw,
 
 	## required for sdwdate-plugin-anon-shared-con-check
-	/run/tor/control.authcookie
+	/run/tor/control.authcookie r,
 
 	/root/.ruby_inline/ rw,
 	/root/.ruby_inline/** mrw,
