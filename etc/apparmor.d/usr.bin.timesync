@@ -176,6 +176,8 @@
 
 	/usr/lib/gcc/** rix,
 
+	/usr/lib/sdwdate/date_to_unixtime rix,
+
 	/usr/include r,
 	/usr/include/** r,
 
