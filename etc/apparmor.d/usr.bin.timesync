@@ -176,8 +176,6 @@
 
 	/usr/lib/gcc/** rix,
 
-	/usr/lib/sdwdate/date_to_unixtime rix,
-
 	/usr/include r,
 	/usr/include/** r,
 
@@ -189,8 +187,9 @@
 	/usr/lib/msgcollector/* rix,
 	/usr/lib/anon-shared-helper-scripts/* rix,
 	/usr/lib/curl-scripts/* rix,
-	/usr/lib/sclockadj rix,
-	/usr/lib/sclockadj_kill_helper rix,
+	/usr/lib/sdwdate/sclockadj rix,
+	/usr/lib/sdwdate/sclockadj_kill_helper rix,
+	/usr/lib/sdwdate/date_to_unixtime rix,
 
 	/usr/lib/ruby/** mr,
 
