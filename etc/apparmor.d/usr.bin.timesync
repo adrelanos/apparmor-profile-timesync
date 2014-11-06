@@ -97,7 +97,7 @@
 
 	@{HOME}/ r,
 	@{HOME}/.sdwdate/ r,
-	@{HOME}/sdwdate/.msgcollector/ r,
+	@{HOME}/sdwdate/.msgcollector/ rwk,
 	@{HOME}/sdwdate/.msgcollector/* rwk,
 
 	/lib/i386-linux-gnu/** mr,
