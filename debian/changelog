@@ -1,3 +1,9 @@
+apparmor-profile-timesync (3:1.6-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 12 Nov 2014 12:48:52 +0000
+
 apparmor-profile-timesync (3:1.5-1) unstable; urgency=low
 
   * New upstream version.

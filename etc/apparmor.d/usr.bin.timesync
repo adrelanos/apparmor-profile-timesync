@@ -95,10 +95,8 @@
     /etc/apt/preferences.d/* r,
     /etc/security/capability.conf r,
 
-    @{HOME}/ r,
-    @{HOME}/.sdwdate/ r,
-    @{HOME}/sdwdate/.msgcollector/ rwk,
-    @{HOME}/sdwdate/.msgcollector/* rwk,
+    @{HOME}/sdwdate/.msgcollector rwk,
+    @{HOME}/sdwdate/.msgcollector/** rwk,
 
     /lib/i386-linux-gnu/** mr,
     /lib/security/* mr,
@@ -118,9 +116,8 @@
     /run/timesync/* mrwcx,
     /run/timesync/timesync_pid r,
     /run/utmp rk,
-    /run/msgcollector r,
-    /run/msgcollector/*/ r,
-    /run/msgcollector/*/* rwk,
+    /run/msgcollector rwk,
+    /run/msgcollector/** rwk,
     /run/sdwdate r,
     /run/sdwdate/ rw,
     /run/sdwdate/* rw,
@@ -195,7 +192,7 @@
     # Whonix 10
     /usr/lib/sdwdate/sclockadj rix,
     /usr/lib/sdwdate/sclockadj_kill_helper rix,
-    
+
     /usr/lib/sdwdate/date_to_unixtime rix,
 
     /usr/lib/ruby/** mr,
