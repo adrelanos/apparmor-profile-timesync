@@ -207,7 +207,7 @@
 
     /var/cache/apt/pkgcache.bin r,
 
-    /var/lib/dpkg/** rwk,
+    /var/lib/dpkg/** r,
     /var/lib/apt/lists/ r,
     /var/lib/apt/extended_states r,
 
