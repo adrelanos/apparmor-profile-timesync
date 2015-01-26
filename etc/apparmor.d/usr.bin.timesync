@@ -116,7 +116,7 @@
     /run/timesync/* mrwcx,
     /run/timesync/timesync_pid r,
     /run/utmp rk,
-    /run/msgcollector rwk,
+    /run/msgcollector/ rwk,
     /run/msgcollector/** rwk,
     /run/sdwdate r,
     /run/sdwdate/ rw,
