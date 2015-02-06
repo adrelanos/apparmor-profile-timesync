@@ -169,7 +169,6 @@
     /usr/bin/as rix,
     /usr/bin/ld.bfd rix,
     /usr/bin/id rix,
-    /usr/bin/timeout rix,
 
     /usr/lib/gcc/** rix,
 
