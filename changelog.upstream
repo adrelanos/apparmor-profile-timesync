@@ -1,3 +1,33 @@
+commit 14fc28981b894ce418d9fa38287ec24fe3bb24e1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:26:27 2015 +0000
+
+    updated makefile generic to version 1.4
+
+commit c3fc8c185a78b4a5466b4307763a6b5325f55cb0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Feb 7 00:06:46 2015 +0000
+
+    sync with sdwdate profile
+
+commit acf8cf1d5c4b0070afbff584215fff25db0a07be
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 6 22:31:12 2015 +0000
+
+    fixed duplicate
+
+commit 850c92adb8cf007beeb70f9d30f4927ccbf40634
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 6 22:29:16 2015 +0000
+
+    update for latest sdwdate
+
+commit 38948fa8616e2c171aadd31e6bc01cea548b0a7a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:56:11 2015 +0000
+
+    bumped changelog version
+
 commit 2bdfe13aabf462af93c0c59686eb414796d4b1b6
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 4 00:44:45 2015 +0000
