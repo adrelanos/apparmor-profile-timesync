@@ -1,3 +1,22 @@
+commit 064310839b1b4abb5fa88fdb5ae32b1eb0a8f8d3
+Merge: 7f64d53 96a8aa2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 22 21:42:48 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 96a8aa29d0ff707f25c44ac86fa6f89c19b1db31
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri May 22 20:22:34 2015 +0000
+
+    updates for 11.0.0.1.8
+
+commit 7f64d535db70e6e04eb071c952a6e05cd1ebe740
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 30 17:56:07 2015 +0000
+
+    bumped changelog version
+
 commit 22982a4a3e15a53217c67ba5842847ee98e05aa7
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Apr 28 13:43:07 2015 +0000
