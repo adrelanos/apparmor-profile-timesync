@@ -16,7 +16,9 @@
     capability fsetid,
     capability dac_override,
     capability kill,
-
+    capability audit_write,
+    capability net_admin,
+    
     / r,
 
     /usr/bin/timesync rix,
@@ -44,6 +46,7 @@
     /bin/echo rix,
     /bin/touch rix,
     /bin/which rix,
+    /bin/systemctl rix,
 
     /sbin/start-stop-daemon rix,
 
@@ -58,6 +61,7 @@
     /etc/nsswitch.conf r,
     /etc/resolv.conf r,
     /etc/resolv.conf.anondist r,
+    /etc/login.defs r,
     deny /etc/fstab r,
 
     ## required for sdwdate-plugin-anon-shared-con-check
@@ -94,6 +98,7 @@
     /etc/apt/preferences.d/ r,
     /etc/apt/preferences.d/* r,
     /etc/security/capability.conf r,
+    /etc/machine-id r,
 
     @{HOME}/sdwdate/.msgcollector rwk,
     @{HOME}/sdwdate/.msgcollector/** rwk,
@@ -112,6 +117,8 @@
     @{PROC}/[0-9]*/task/ r,
     @{PROC}/tty/drivers r,
     @{PROC}/sys/kernel/random/uuid r,
+    @{PROC}/sys/kernel/random/boot_id r,
+
 
     /run/timesync/* mrwcx,
     /run/timesync/timesync_pid r,
@@ -123,10 +130,16 @@
     /run/sdwdate/* rw,
     /run/timesync/ rw,
     /run/timesanitycheck/success rw,
+    /run/log/journal/ rw,
+    /run/log/journal/*/ rw,
+    /run/log/journal/*/system.journal rw,
 
     /sys/bus/pci/devices/ r,
     /sys/devices/pci0000:00/** r,
     /sys/bus/pci/slots/ r,
+    /sys/fs/cgroup/systemd/system.slice/bootclockrandomization.service/ r,
+    /sys/fs/cgroup/systemd/system.slice/bootclockrandomization.service/* r,
+    /sys/fs/cgroup/systemd/system.slice/timesanitycheck.service/ r,
 
     /tmp/** rwcix,
 
@@ -169,6 +182,7 @@
     /usr/bin/as rix,
     /usr/bin/ld.bfd rix,
     /usr/bin/id rix,
+    /usr/bin/sudo rix,
 
     /usr/lib/gcc/** rix,
 
