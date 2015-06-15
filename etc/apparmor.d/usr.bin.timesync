@@ -4,6 +4,7 @@
 /usr/bin/timesync {
     #include <abstractions/base>
     #include <abstractions/bash>
+    #include <abstractions/sdwdate>
 
     capability sys_ptrace,
     capability sys_resource,
@@ -18,7 +19,7 @@
     capability kill,
     capability audit_write,
     capability net_admin,
-    
+
     / r,
 
     /usr/bin/timesync rix,
@@ -133,6 +134,8 @@
     /run/log/journal/ rw,
     /run/log/journal/*/ rw,
     /run/log/journal/*/system.journal rw,
+    /run/systemd/ask-password/ rw,
+    /run/systemd/ask-password-block/** rw,
 
     /sys/bus/pci/devices/ r,
     /sys/devices/pci0000:00/** r,
@@ -143,7 +146,9 @@
 
     /tmp/** rwcix,
 
-    /usr/bin/basename  rix,
+    /bin/systemd-tty-ask-password-agent rix,
+
+    /usr/bin/basename rix,
     /usr/bin/sudo ix,
     /usr/bin/tee rix,
     /usr/bin/tty rix,
