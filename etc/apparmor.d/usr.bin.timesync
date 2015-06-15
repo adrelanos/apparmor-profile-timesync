@@ -143,6 +143,7 @@
     /sys/fs/cgroup/systemd/system.slice/bootclockrandomization.service/ r,
     /sys/fs/cgroup/systemd/system.slice/bootclockrandomization.service/* r,
     /sys/fs/cgroup/systemd/system.slice/timesanitycheck.service/ r,
+    /sys/fs/cgroup/systemd/system.slice/timesanitycheck.service/* r,
 
     /tmp/** rwcix,
 
